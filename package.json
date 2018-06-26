@@ -19,7 +19,12 @@
   },
   "homepage": "https://github.com/johnwook/environment-variables-test#readme",
   "devDependencies": {
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51",
+    "babel-loader": "^8.0.0-beta.4",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.3",
     "webpack": "^4.12.1",
-    "webpack-cli": "^3.0.8"
+    "webpack-cli": "^3.0.8",
+    "webpack-merge": "^4.1.3"
   }
 }
