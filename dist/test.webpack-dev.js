@@ -93,7 +93,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("if (true) {\n  console.log(\"hi, this is development environment\");\n}\n\n\n//# sourceURL=webpack:///./test.js?");
+"use strict";
+eval("\n\nif (true) {\n  console.log(\"hi, this is development environment!\");\n}\n\n//# sourceURL=webpack:///./test.js?");
 
 /***/ })
 
