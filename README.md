@@ -15,3 +15,7 @@ test runtime vs compile-time environment variables
 - `dist/test.webpack-prod.js`의 마지막 부분
   - `function(e,t,n){console.log("hi, this is development environment")}`
 - 치환에 더해 webpack 최적화로 `if (true)`문이 삭제됨
+
+## Conclusion
+
+- Babel이나 wepback으로 환경변수를 compile time에 고정할 수 있고, 고정된 변수에 따라 최적화도 가능하다.
