@@ -6,7 +6,8 @@
   "scripts": {
     "build:webpack-dev": "NODE_ENV=development webpack --config webpack.dev.js",
     "build:webpack-prod": "NODE_ENV=development webpack --config webpack.prod.js",
-    "build:webpack-babel-dev": "NODE_ENV=development webpack --config webpack.babel-dev.js"
+    "build:webpack-babel-dev": "NODE_ENV=development webpack --config webpack.babel-dev.js",
+    "build:webpack-babel-prod": "NODE_ENV=development webpack --config webpack.babel-prod.js"
   },
   "repository": {
     "type": "git",
